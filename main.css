@@ -1,0 +1,86 @@
+body {
+  background-color: #111111;
+  overflow-x: hidden;
+}
+
+.header-text {
+  font-size: 50rem;
+  color: #fcf7f0;
+  font-family: Digitalt;
+}
+
+.projects-section {
+  font-family: JetBrains Mono;
+}
+
+.left {
+  left: 460px;
+}
+
+.right {
+  right: 500px;
+}
+
+.me-section {
+  font-family: JetBrains Mono;
+}
+
+.what-i-do {
+  color: #fcf7f0;
+}
+.swiper {
+  width: 400px;
+  height: 500px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+.glowy-container:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 100px rgba(145, 92, 182, 0.4);
+}
+
+.glowy-container {
+  transition: all ease-in 0.2s;
+}
+
+.swiper-slide-one {
+  background-image: url("/img/screenshots/first-ereel.png");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.swiper-slide-two {
+  background-image: url("/img/screenshots/second-ereel.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide-three {
+  background-image: url("/img/screenshots/third-ereel.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.second-swiper-slide-two {
+  background-image: url("/img/screenshots/first-mentor.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.third-swiper-slide-three {
+  background-image: url("/img/screenshots/second-mentor.png");
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+  .header-text {
+    font-size: 20rem;
+  }
+  .swiper {
+    width: 300px;
+    height: 300px;
+  }
+}
